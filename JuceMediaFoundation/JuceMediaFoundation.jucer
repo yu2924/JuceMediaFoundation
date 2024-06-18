@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="dwLBcE" name="JuceMediaFoundation" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              headerPath="../../Source">
+  <MAINGROUP id="zX1chB" name="JuceMediaFoundation">
+    <GROUP id="{487AD8A9-563D-2927-D2B6-E5ECFCD11ED8}" name="Source">
+      <GROUP id="{A22BFFE1-0A2D-A824-8143-04637F5E56E1}" name="codec">
+        <FILE id="vGGA5k" name="MediaFoundationAudioFormat.cpp" compile="1"
+              resource="0" file="Source/codec/MediaFoundationAudioFormat.cpp"/>
+        <FILE id="vENahC" name="MediaFoundationAudioFormat.h" compile="0" resource="0"
+              file="Source/codec/MediaFoundationAudioFormat.h"/>
+      </GROUP>
+      <GROUP id="{D29C6C8D-1B6D-C53A-6B30-C74CEA8A90CC}" name="testapp">
+        <FILE id="NAV31p" name="AudioFilePlayer.cpp" compile="1" resource="0"
+              file="Source/testapp/AudioFilePlayer.cpp"/>
+        <FILE id="UDNCTw" name="AudioFilePlayer.h" compile="0" resource="0"
+              file="Source/testapp/AudioFilePlayer.h"/>
+        <FILE id="zjWRzN" name="Main.cpp" compile="1" resource="0" file="Source/testapp/Main.cpp"/>
+        <FILE id="DgWCFU" name="MainWindow.cpp" compile="1" resource="0" file="Source/testapp/MainWindow.cpp"/>
+        <FILE id="J0RmXI" name="MainWindow.h" compile="0" resource="0" file="Source/testapp/MainWindow.h"/>
+        <FILE id="VlsL0r" name="SettingsWindow.cpp" compile="1" resource="0"
+              file="Source/testapp/SettingsWindow.cpp"/>
+        <FILE id="Vlq0fc" name="SettingsWindow.h" compile="0" resource="0"
+              file="Source/testapp/SettingsWindow.h"/>
+      </GROUP>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022" extraCompilerFlags="/utf-8">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="JuceMediaFoundation"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="JuceMediaFoundation"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_formats" path="..\..\..\..\SDKs\JUCE-7.0.8\modules"/>
+        <MODULEPATH id="juce_core" path="..\..\..\..\SDKs\JUCE-7.0.8\modules"/>
+        <MODULEPATH id="juce_data_structures" path="..\..\..\..\SDKs\JUCE-7.0.8\modules"/>
+        <MODULEPATH id="juce_events" path="..\..\..\..\SDKs\JUCE-7.0.8\modules"/>
+        <MODULEPATH id="juce_graphics" path="..\..\..\..\SDKs\JUCE-7.0.8\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="..\..\..\..\SDKs\JUCE-7.0.8\modules"/>
+        <MODULEPATH id="juce_audio_basics" path="..\..\..\..\SDKs\JUCE-7.0.8\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="..\..\..\..\SDKs\JUCE-7.0.8\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="..\..\..\..\SDKs\JUCE-7.0.8\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="..\..\..\..\SDKs\JUCE-7.0.8\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="..\..\..\..\SDKs\JUCE-7.0.8\modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
