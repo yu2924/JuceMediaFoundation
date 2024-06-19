@@ -64,7 +64,7 @@ It works well with AAC (m4a, mp4). Other formats seem to be better handled by th
 
 ## 3. The practical implementation: JuceMediaFoundation
 
-Based on our experiments, I prototyped a more practical MediaFoundationAudioFormat class and integrated it into a simple application. This application was created using JUCE 7.0.8 and uses the AudioFormatReader class for waveform thumbnails and playback, respectively. 　
+Based on the experiments, I prototyped a more practical MediaFoundationAudioFormat class and integrated it into a simple application. This application was created using JUCE 7.0.8 and uses the AudioFormatReader class for waveform thumbnails and playback, respectively. 　
 The MediaFoundationAudioFormat class handles only the AAC (.m4a, .mp4) format, but I have found that it does not work well with the ALAC format, which has the same .m4a extension.
 
 ![JuceMediaFoundation](media/JuceMediaFoundation.png)
