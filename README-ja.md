@@ -2,7 +2,7 @@
 
 ## 目次
 - [1. 動機と目的](#1-動機と目的)
-- [2. 実験: TestSourceReader](#2-実験-testsourcereader)
+- [2. 実験: TestMFSourceReader](#2-実験-testmfsourcereader)
   - [2.1. メディア長さの不一致](#21-メディア長さの不一致)
   - [2.2. 不連続なタイムスタンプ](#22-不連続なタイムスタンプ)
   - [2.3. 不適当なシーク](#23-不適当なシーク)
@@ -23,7 +23,7 @@ AudioFormatの形にするためには、サンプル精度でのシーク能力
 
 これらの挙動はメディアフォーマットによって異なるようだった。そこで、実験により上手く動作するメディアフォーマットを探求し、最終的に実用的なMediaFoundationAudioFormatクラスを実装した。
 
-## 2. 実験: TestSourceReader
+## 2. 実験: TestMFSourceReader
 
 この小さなプログラムはMedia Foundation APIの提供するMFSourceReaderを使ってメディアファイルを開き、その挙動を検証する。
 

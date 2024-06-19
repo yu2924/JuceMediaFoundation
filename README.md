@@ -1,8 +1,9 @@
 # JuceMediaFoundation
 
 ## Table of Contents
+- [Table of Contents](#table-of-contents)
 - [1. Motivation and Objective](#1-motivation-and-objective)
-- [2. The experiment: TestSourceReader](#2-the-experiment-testsourcereader)
+- [2. The experiment: TestMFSourceReader](#2-the-experiment-testmfsourcereader)
   - [2.1. Media length mismatch](#21-media-length-mismatch)
   - [2.2. Timestamp discontinuity](#22-timestamp-discontinuity)
   - [2.3. Improper seeking](#23-improper-seeking)
@@ -23,7 +24,7 @@ In order to get the AudioFormat form, it requires the ability to seek with sampl
 
 These behaviors seemed to vary depending on the media format. So I did some experiments to find media formats that worked well, and finally, I implemented practical MediaFoundationAudioFormat class.
 
-## 2. The experiment: TestSourceReader
+## 2. The experiment: TestMFSourceReader
 
 This small program uses the MFSourceReader provided by the Media Foundation API to open media files and examine their behavior.
 
