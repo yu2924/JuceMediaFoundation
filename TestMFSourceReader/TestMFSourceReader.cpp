@@ -19,7 +19,7 @@
 #pragma comment(lib, "mfuuid.lib")
 #pragma comment(lib, "propsys.lib")
 #pragma comment(lib, "shlwapi.lib")
-#include "comdef.h"
+#include <comdef.h>
 #include <iostream>
 
 _COM_SMARTPTR_TYPEDEF(IStream, __uuidof(IStream));

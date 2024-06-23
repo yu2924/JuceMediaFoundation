@@ -24,7 +24,7 @@
 #pragma comment(lib, "mfreadwrite.lib")
 #pragma comment(lib, "mfuuid.lib")
 #pragma comment(lib, "propsys.lib")
-#include "comdef.h"
+#include <comdef.h>
 
 // ================================================================================
 // MFAudioFormatReader
